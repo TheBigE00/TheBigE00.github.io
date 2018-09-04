@@ -1,0 +1,65 @@
+body{
+    font-family:arial, garamond, georgia;
+    font-size:20px;
+    line-height:1.5;
+    padding:0;
+    margin:0;
+    background-color:green; 
+    color: white;
+} 
+
+#container {
+    text-align: justify;
+     margin-top:10px;
+}
+
+#container .center img{
+    width:200px;  
+    
+} 
+#boxes{
+    width:30%;
+    height:1200px;
+    float: left;
+    background-color: black;
+   
+}
+#boxesright{
+    width:30%;
+    float: left;
+}
+#linksright{ 
+    width:70%;
+    height:1200px;
+    float: right; 
+    background-color:white; 
+    font-size: 15px; 
+    
+}
+header li{
+    
+    color:white; 
+    font-size:30px;
+} 
+ul{
+    background-color:#605E5E;
+        padding-bottom: 30px; 
+        
+}
+
+
+#abt {
+    text-align: justify;
+     margin-top:10px;
+}
+
+#abt .center img{
+    width:200px;  
+    
+} 
+
+
+
+span {
+    color: white;
+}        
