@@ -40,10 +40,10 @@ header li{
     
     color:white; 
     font-size:30px;
+    height: 50px;
 } 
 ul{
     background-color:#605E5E;
-        padding-bottom: 30px; 
         
 }
 
@@ -72,3 +72,13 @@ span {
          width:100%;
      }
      }
+     
+a:hover { 
+    background-color: green;
+    
+} 
+
+.currentLink {
+   color: #640200;
+   background-color: #000000;
+}

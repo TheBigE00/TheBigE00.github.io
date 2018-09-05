@@ -29,7 +29,7 @@ body{
     float: left;
 }
 #linksright{ 
-    width:70%;
+    width:40%;
     height:1200px;
     float: right; 
     background-color:white; 
@@ -40,10 +40,11 @@ header li{
     
     color:white; 
     font-size:30px;
+     min-height: 40px;
+    max-height: 80px;
 } 
 ul{
     background-color:#605E5E;
-        padding-bottom: 30px; 
         
 }
 
@@ -62,4 +63,23 @@ ul{
 
 span {
     color: white;
-}        
+}     
+
+ @media(mas-width: 770px){
+     header h1, nav,.hat{
+         color:purple;
+         float:none;
+         text-align:center;
+         width:100%;
+     }
+     }
+     
+a:hover { 
+    background-color: green;
+    
+} 
+
+.currentLink {
+   color: #640200;
+   background-color: #000000;
+}
