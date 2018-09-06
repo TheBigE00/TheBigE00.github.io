@@ -4,13 +4,13 @@ body{
     line-height:1.5;
     padding:0;
     margin:0;
-    background-color:green; 
+    background-color:black; 
     color: white;
 } 
 
 #container {
     text-align: justify;
-     margin-top:10px;
+     margin-top:0px;
 }
 
 #container .center img{
@@ -39,18 +39,21 @@ body{
 header li{
     
     color:white; 
-    font-size:30px;
-    height: 50px;
+    font-size:40px; 
+    
+
+    
 } 
 ul{
-    background-color:#605E5E;
-        
+    background-color:#605E5E; 
+    height:60px;
+    margin-bottom:0px;    
 }
 
 
 #abt {
     text-align: justify;
-     margin-top:10px;
+     margin-top:0px;
 }
 
 #abt .center img{
@@ -64,9 +67,9 @@ span {
     color: white;
 }     
 
- @media(mas-width: 770px){
-     header h1, nav,.hat{
-         color:purple;
+ @media(max-width: 770px){
+     header h1, nav, .hat{
+         color:orange;
          float:none;
          text-align:center;
          width:100%;
